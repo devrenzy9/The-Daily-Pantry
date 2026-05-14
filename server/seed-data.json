@@ -1,0 +1,64 @@
+{
+  "categories": [
+    { "id": 1, "title": "Milks and Dairies", "icon": "category-1.svg" },
+    { "id": 2, "title": "Wines & Drinks", "icon": "category-2.svg" },
+    { "id": 3, "title": "Clothing & beauty", "icon": "category-3.svg" },
+    { "id": 4, "title": "fresh seafood", "icon": "category-4.svg" },
+    { "id": 5, "title": "pet foods & toy", "icon": "category-5.svg" },
+    { "id": 6, "title": "fast food", "icon": "category-6.svg" },
+    { "id": 7, "title": "Baking material", "icon": "category-7.svg" },
+    { "id": 8, "title": "vegetables", "icon": "category-8.svg" },
+    { "id": 9, "title": "fresh fruit", "icon": "category-9.svg" },
+    { "id": 10, "title": "bread and juice", "icon": "category-10.svg" }
+  ],
+  "featuredCategories": [
+    { "id": 1, "img": "cat-1.png", "head": "Cake & Milk", "quantity": "26 items", "color": "green" },
+    { "id": 2, "img": "cat-2.png", "head": "Organic kiwi", "quantity": "19 items", "color": "red" },
+    { "id": 3, "img": "cat-3.png", "head": "Peach", "quantity": "34 items", "color": "cream" },
+    { "id": 4, "img": "cat-4.png", "head": "Red Apple", "quantity": "15 items", "color": "green" },
+    { "id": 5, "img": "cat-5.png", "head": "Snacks", "quantity": "28 items", "color": "red" },
+    { "id": 6, "img": "cat-9.png", "head": "Vegetables", "quantity": "22 items", "color": "cream" },
+    { "id": 7, "img": "cat-11.png", "head": "Strawberry", "quantity": "13 items", "color": "green" },
+    { "id": 8, "img": "cat-12.png", "head": "Black Plum", "quantity": "31 items", "color": "red" },
+    { "id": 9, "img": "cat-13.png", "head": "Custard Apple", "quantity": "16 items", "color": "cream" },
+    { "id": 10, "img": "cat-14.png", "head": "Coffee & Tea", "quantity": "21 items", "color": "green" },
+    { "id": 11, "img": "cat-15.png", "head": "Headphones", "quantity": "12 items", "color": "red" }
+  ],
+  "popularProducts": [
+    { "id": 1, "deal": "Hot", "img": "product-1-1.jpg", "hover": "product-1-2.jpg", "cat": "Snack", "name": "Seeds of Change Organic Quinoa, Brown, & Red Rice", "star": "30", "rating": "(4.0)", "company": "NestFood", "realPrice": "28.85", "price": "32.0" },
+    { "id": 2, "deal": "Hot", "img": "product-2-1.jpg", "hover": "product-2-2.jpg", "cat": "Hodo Foods", "name": "All Natural Italian‑Style Chicken Meatballs", "star": "20", "rating": "(3.5)", "company": "Stouffer", "realPrice": "52.85", "price": "55.0" },
+    { "id": 3, "deal": "New", "img": "product-3-1.jpg", "hover": "product-3-2.jpg", "cat": "Snack", "name": "Angie's Boomchickapop Sweet & Salty Kettle Corn", "star": "15", "rating": "(4.0)", "company": "StarKist", "realPrice": "22.85", "price": "25.0" },
+    { "id": 4, "deal": "Sale", "img": "product-4-1.jpg", "hover": "product-4-2.jpg", "cat": "Vegetables", "name": "Foster Farms Takeout Crispy Classic Buffalo Wings", "star": "28", "rating": "(4.5)", "company": "NestFood", "realPrice": "19.85", "price": "22.0" },
+    { "id": 5, "deal": "new", "img": "product-5-1.jpg", "hover": "product-5-2.jpg", "cat": "Pet Foods", "name": "Blue Diamond Almonds Lightly Salted", "star": "14", "rating": "(4.2)", "company": "NestFood", "realPrice": "15.85", "price": "17.0" },
+    { "id": 6, "deal": "", "img": "product-6-1.jpg", "hover": "product-6-2.jpg", "cat": "Dairy", "name": "Chobani Complete Vanilla Greek Yogurt", "star": "18", "rating": "(4.0)", "company": "Chobani", "realPrice": "12.50", "price": "13.9" },
+    { "id": 7, "deal": "-10%", "img": "product-7-1.jpg", "hover": "product-7-2.jpg", "cat": "Meats", "name": "Canada Dry Ginger Ale – 2L Bottle", "star": "11", "rating": "(3.8)", "company": "Canada Dry", "realPrice": "18.85", "price": "21.0" },
+    { "id": 8, "deal": "Sale", "img": "product-8-1.jpg", "hover": "product-8-2.jpg", "cat": "Seafood", "name": "Encore Seafoods Stuffed Alaskan Salmon", "star": "12", "rating": "(4.3)", "company": "Encore", "realPrice": "26.85", "price": "28.0" },
+    { "id": 9, "deal": "", "img": "product-9-1.jpg", "hover": "product-9-2.jpg", "cat": "Fruits", "name": "Fresh Organic Strawberries", "star": "10", "rating": "(4.6)", "company": "BerryFarm", "realPrice": "10.85", "price": "12.0" },
+    { "id": 10, "deal": "Hot", "img": "product-10-1.jpg", "hover": "product-10-2.jpg", "cat": "Coffee & Tea", "name": "Organic Green Tea Bags – 100 Count", "star": "9", "rating": "(4.4)", "company": "GreenLife", "realPrice": "14.99", "price": "16.5" }
+  ],
+  "dailySells": [
+    { "id": 1, "deal": "Hot", "img": "product-1-1.jpg", "hover": "product-1-2.jpg", "cat": "Snack", "name": "Seeds of Change Organic Quinoa, Brown, & Red Rice", "star": "30", "rating": "(4.0)", "company": "NestFood", "realPrice": "28.85", "price": "32.0" },
+    { "id": 2, "deal": "Hot", "img": "product-2-1.jpg", "hover": "product-2-2.jpg", "cat": "Hodo Foods", "name": "All Natural ItalianStyle Chicken Meatballs", "star": "20", "rating": "(3.5)", "company": "Stouffer", "realPrice": "52.85", "price": "55.0" },
+    { "id": 3, "deal": "New", "img": "product-3-1.jpg", "hover": "product-3-2.jpg", "cat": "Snack", "name": "Angies Boomchickapop Sweet & Salty Kettle Corn", "star": "15", "rating": "(4.0)", "company": "StarKist", "realPrice": "22.85", "price": "25.0" },
+    { "id": 4, "deal": "Sale", "img": "product-4-1.jpg", "hover": "product-4-2.jpg", "cat": "Vegetables", "name": "Foster Farms Takeout Crispy Classic Buffalo Wings", "star": "28", "rating": "(4.5)", "company": "NestFood", "realPrice": "19.85", "price": "22.0" },
+    { "id": 5, "deal": "new", "img": "product-5-1.jpg", "hover": "product-5-2.jpg", "cat": "Pet Foods", "name": "Blue Diamond Almonds Lightly Salted", "star": "14", "rating": "(4.2)", "company": "NestFood", "realPrice": "15.85", "price": "17.0" },
+    { "id": 6, "deal": "", "img": "product-6-1.jpg", "hover": "product-6-2.jpg", "cat": "Dairy", "name": "Chobani Complete Vanilla Greek Yogurt", "star": "18", "rating": "(4.0)", "company": "Chobani", "realPrice": "12.50", "price": "13.9" },
+    { "id": 7, "deal": "-10%", "img": "product-7-1.jpg", "hover": "product-7-2.jpg", "cat": "Meats", "name": "Canada Dry Ginger AleL Bottle", "star": "11", "rating": "(3.8)", "company": "Canada Dry", "realPrice": "18.85", "price": "21.0" },
+    { "id": 8, "deal": "Sale", "img": "product-8-1.jpg", "hover": "product-8-2.jpg", "cat": "Seafood", "name": "Encore Seafoods Stuffed Alaskan Salmon", "star": "12", "rating": "(4.3)", "company": "Encore", "realPrice": "26.85", "price": "28.0" },
+    { "id": 9, "deal": "", "img": "product-9-1.jpg", "hover": "product-9-2.jpg", "cat": "Fruits", "name": "Fresh Organic Strawberries", "star": "10", "rating": "(4.6)", "company": "BerryFarm", "realPrice": "10.85", "price": "12.0" },
+    { "id": 10, "deal": "Hot", "img": "product-10-1.jpg", "hover": "product-10-2.jpg", "cat": "Coffee & Tea", "name": "Organic Green Tea Bags 100 Count", "star": "9", "rating": "(4.4)", "company": "GreenLife", "realPrice": "14.99", "price": "16.5" }
+  ],
+  "dealsOfTheDay": [
+    { "id": 1, "img": "banner-5.png", "star": "30", "name": "Seeds of Change Organic Quinaa, brown & Red", "rating": "4.0", "company": "nextfood", "price": "32.85", "realPrice": "33.0", "days": "400" },
+    { "id": 2, "img": "banner-6.png", "star": "20", "name": "Perdue Simple smart organic gluten free", "rating": "4.0", "company": "old el paso", "price": "24.42", "realPrice": "26.0", "days": "600" },
+    { "id": 3, "img": "banner-7.png", "star": "25", "name": "siganture Wood-fired ushroom and caramelized", "rating": "3.0", "company": "progresso", "price": "12.53", "realPrice": "13.9", "days": "574" },
+    { "id": 4, "img": "banner-8.png", "star": "18", "name": "simply lemonade with respberry juice", "rating": "2.0", "company": "yoplait", "price": "15.38", "realPrice": "16.4", "days": "364" }
+  ],
+  "newsletters": [],
+  "orders": [],
+  "cart": {
+    "items": [],
+    "totalItems": 0,
+    "totalPrice": 0
+  }
+}

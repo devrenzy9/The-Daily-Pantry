@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #D17A5F;
+  --color-secondary: #E75C42;
+  --color-tertiary: #F4A82E;
+  --color-surface: #FBF6F1;
+  --color-text: #6B4423;
+  --color-accent-light: #A85A3E;
+  --color-muted-tomato: #C96B5A;
+  --color-premium: #D4AF37;
+}
+
+body{
+  background-color: #FBF6F1;
+  width: 100%;
+  height: 100%;
+}
+
+.container-slider::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+@media(min-width: 1420px){
+  .Items{
+    gap: 40px;
+  }
+}
+/* products cards section */
+
+@media(min-width: 200px) {
+  .productCard{
+    height: 28rem;
+  }
+  .productImage{
+    width: 220px;
+  }
+}
+@media(max-width: 342px){
+  .countdown{
+    top: 160px;
+    transform: translateY(0px);
+  }
+}
+@media(max-width: 400px){
+  .ContactContent{
+    width: 94vw;
+    padding: 40px;
+  }
+  .ContactContent h1{
+    font-size: 2rem;
+  }
+  .ContactContent h6{
+    font-size: 1.1rem;
+  }
+
+}
+@media(min-width: 480px){
+  .productImage{
+    width : 230px;
+  }
+  .productsContainer{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 430px){
+  .popupContainer h6{
+    font-size: 1rem;
+  }
+  .popupContainer h1{
+    font-size: 1.9rem;
+  }
+  .price{
+    font-size: 2.5rem;
+  }
+  .disPrice1{
+    font-size: 0.8rem;
+  }
+  .disPrice2{
+    font-size: 1.2rem;
+  }
+  .hurry{
+    font-size: 0.9rem;
+  }
+  .timerBox{
+    width: 50px;
+    height: 50px;
+  }
+  .timerCount{
+    font-size: 1.1rem;
+  }
+  .timerHead{
+    margin: 0px;
+    font-size: 0.8rem;
+  }
+  .stars{
+    font-size: 0.9rem;
+  }
+  .rate{
+    font-size: 0.9rem;
+  }
+  .popupContainer button{
+    font-size: 0.9rem;
+  }
+  .popupImage{
+    width: 85%;
+    bottom: 20px;
+  }
+  .featuredSecondCards{
+    padding: 0px;
+    align-items: flex-start;
+    padding-left: 35px;
+    padding-top: 30px;
+  }
+  .featuredSecondCards div h3 {
+      font-size: 1.3rem
+  }
+  .featuredSecondCards div button{
+    font-size: 0.8rem;
+  }
+}
+@media(max-width: 490px){
+  .dailyProduct{
+    height: 95vh
+  }
+}
+@media(min-width: 491px){
+  .dailyProduct{
+    height: 28rem;
+  }
+}
+@media(min-width: 610px){
+  .dailyProduct{
+    height: 31rem
+  }
+  .dailyImage{
+    width: 200px;
+  }
+}
+@media(min-width: 700px){
+
+  .productsContainer{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media(min-width: 1028px){
+
+  .productsContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media(min-width: 1170px){
+  .dailyProductContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .countdown{
+    top: 180px;
+  }
+}
+@media(min-width: 1326px){
+  .countdown{
+    top: 220px;
+  }
+}
+@media(min-width: 1350px) {
+  .productsContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+/*  */
+@media(max-width: 470px) {
+  .heroHead{
+    font-size: 2.6rem;
+    width: 100%;
+  }
+  .heroHead2{
+    font-size: 1.5rem;
+  }
+  .heroButton{
+    width: 120px;
+    font-size: 1rem;
+  }
+}
+
+.slick-slide {
+  visibility: visible !important;
+}
+.slick-cloned {
+  visibility: visible !important;
+}
