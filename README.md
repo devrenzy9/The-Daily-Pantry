@@ -1,31 +1,32 @@
 # The Daily Pantry
 
-Grocery e-commerce app built with React, Vite, Tailwind, and Express.
+A grocery e-commerce project with a React frontend and an Express backend backed by local JSON storage.
 
 ## Stack
 
-Frontend:
-- React
-- Vite
-- Tailwind CSS
-- GSAP
+**Frontend:** React · Vite · Tailwind CSS · GSAP  
+**Backend:** Express.js · JSON file storage · UUID
 
-Backend:
-- Express.js
-- JSON file storage
-- UUID
+## Project Structure
 
-## Features
+```
+THE-DAILY-PANTRY/
+├── client/                 # React + Vite frontend
+├── server/                 # Express backend (JSON database)
+├── .gitignore
+├── README.md
+```
 
-- Product listing
-- Cart management
-- Order creation
-- Newsletter subscriptions
-- Responsive UI
-
-## Run locally
+## Run Locally
 
 ```bash
 npm install
-cd server && npm install
 npm run dev:full
+```
+
+| Command       | Server               | Client               |
+|---------------|----------------------|----------------------|
+| `npm run dev:full` | `http://localhost:3001` | `http://localhost:5173` |
+| `npm run server`    | runs the backend        | —                      |
+| `npm run dev`       | —                      | runs the frontend      |
+| `npm run seed`      | seed local data       | —                      |

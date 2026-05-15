@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "server": "cd server && node index.js",
-    "seed": "cd server && node seed.js",
+    "server": "cd ..\\server && node server.js",
+    "seed": "cd ..\\server && node scripts/seed.js",
     "dev:full": "concurrently -n SERVER,CLIENT -c red,cyan \"npm run server\" \"npm run dev\"",
     "build": "vite build",
     "lint": "eslint .",
